@@ -13,6 +13,7 @@ However, if I had more time I would ..
 - complete the desktop layout
 - build navigation drop down menu 
 - update mobile version using media queries 
-- + many more features! 
+- would definitely fix the horizontal scrolling! 
+- and plus many more features! 
 
 ![screen shot of the web](images/4moms-screenshot.png)
