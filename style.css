@@ -1,0 +1,380 @@
+
+
+body {
+	margin: 0;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.blackTxt {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+}
+
+.container {
+	width:  1540px;
+	height: auto;
+}
+
+.announcement {
+	width: 1540px;
+    height: 40px;
+    background-color: #000000;
+}
+
+.announcement-text {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	position: absolute;
+    width: 335.81px;
+    height: 24px;
+    left: 602px;
+    top: 8px;
+    color: #FFFFFF;
+}
+
+.header {
+	width:1540px;
+	height: 100px;
+}
+
+.nav-bar {
+	width: 1540px;
+	height: 100px;
+	list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.shop {
+	position: relative;
+	left: 6.17%;
+	right: 91.3%;
+	top: 43%;
+	bottom: 39%;
+}
+
+.about {
+	position: relative;
+	left: 13.44%;
+	right: 79.48%;
+	top: 43%;
+	bottom: 39%;
+}
+
+.logo-4 {
+	position: relative;
+	left: 32.9%;
+	right: 52.21%;
+	top: 31%;
+	bottom: 31%;
+}
+
+.super {
+	vertical-align: super;
+}
+
+.location {
+	position: relative;
+	left: 47.79%;
+	right: 25.52%;
+	top: 43%;
+	bottom: 39%;
+}
+
+.support {
+	position: relative;
+	left: 51.79%;
+	right: 25.52%;
+	top: 43%;
+	bottom: 39%;
+}
+
+.row {
+	width:  50%;
+}
+
+.banner {
+	width: 1540px;
+	height: 620px;
+	background-color: #E9E9E9;
+	display: flex;
+}
+
+.bannerImg {
+	width: 457px;
+	height: 460.43px;
+	left: 232px;
+	top: 87px;
+	position: relative;
+}
+
+.bannerLgTxt{
+	top: 19%;
+    position: relative;
+    text-align: right;
+    padding-right: 30%;
+    font-weight: normal;
+    font-size: 44px;
+}
+
+.bannerSmTxt {
+	width: 41%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #636363;
+}
+
+.textColumn {
+	position: relative;
+	top: 20%;
+}
+
+.btnRow {
+	position: relative;
+    top: 30%;
+    left: 38%;
+}
+
+.btn {
+	background: #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12px 65px;
+}
+
+.columnSection {
+	display: flex;
+
+}
+
+.columns {
+	width: 33.3%;
+	justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.columnTitle{
+	font-size: 18px;
+}
+
+
+.columnText{
+	font-size: 15px;
+	font-weight: 400;
+}
+
+
+.grid {
+	display: block;
+	width: 100%;
+	height: 530px;
+	background-color: #F2F2F2;
+
+}
+
+.grid:nth-child(2) {
+	margin-left: 3px;
+}
+
+.gridTxt{
+	padding-left: 50px;
+    padding-top: 30px;
+    font-size: 22px;
+	line-height: 27px;
+	letter-spacing: 0.05em;
+	color: #000000 ;
+}
+
+
+.arrow {
+	display: inline;
+    position: relative;
+    left: 31%;
+    bottom: 9%;
+}
+
+a.linkStyle {
+	text-decoration: none;
+}
+
+.imgContainer {
+	text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+    top: -70px;
+    position: relative;
+}
+
+.borderLine {
+	margin-top: 3px;
+}
+
+.padding100 {
+	padding-top: 100px;
+}
+
+.center {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.prodTitle {
+	text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.prodDesc {
+	text-align: center;
+    width: 27%;
+    margin: 0 auto;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: #636363;
+    line-height: 150%;
+}
+
+.lightBg {
+	background-color: #FAFAFA;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.shopNow {
+	text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+/* Slider CSS ONLY */
+
+.carousel {
+	position: relative;	
+	height:  414px;
+	width: 80%;
+	margin:  0 auto;
+	padding: 100px 0;
+}
+
+.carousel__image {
+	width: 69%;
+	height: 100%;
+	object-fit: cover;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 150%;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-right: auto;
+	margin-left: auto;
+	color: #636363;
+}
+
+.carousel__track-container{
+	background: #FAFAFA;
+	height: 100%;
+	position: relative;
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:  hidden;
+}
+
+.carousel__track{
+	padding:  0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	height:  100%;	
+	transition: transform 250ms ease-in;
+}
+
+.carousel__slide {
+	position: absolute;
+	top: 30%;
+	bottom: 0;
+	width: 100%;
+}
+
+.carousel__button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 200px;
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+}
+
+.carousel__button--left{
+	left:  -40px;
+}
+
+.carousel__button--right{
+	right:  -40px;
+}
+
+.carousel__button img {
+	width:  50px;
+}
+
+.name {
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
